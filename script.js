@@ -1,5 +1,15 @@
 function findLargest(a, b, c) {
-  //your code here
+
+	let arr=[a,b,c];
+
+	let big=arr[0];
+for(let i=0;i<=arr.length-1;i++){
+	if(arr[i]>big){
+big=arr[i];
+	}
+}
+
+	return big;
 }
 
 const num1 = parseInt(prompt("Enter First Number."));
